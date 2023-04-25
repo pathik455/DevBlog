@@ -18,14 +18,18 @@
 <h2> How to run this website on your local machine ? </h2>
 <br>
 Download all the dependancies required from ../api/index.js and ../client/app.js on your machine by using yarn - 
-<code>yarn add dependency</code>
+<br> <code> npm i </code>
 <br>
-Now on terminal - 
-<br> <code> cd client </code>
-<br> <code> yarn start </code>
-<br> Open new terminal window -
+Open new terminal window to start backend -
 <br> <code> cd ../api </code>
 <br> <code> npx nodemon index.js </code>
+<br>
+Now on terminal open frontend/ clientside - 
+<br> <code> cd client </code>
+<br> <code> npm i </code>
+<br> <code> npm start </code>
+<br> 
+
 
 Open <code>http://localhost:3000</code> and enjoy using Devpost :)
 
