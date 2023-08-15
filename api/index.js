@@ -1,5 +1,5 @@
 const express = require('express'); // to connect backend
-const cors = require('cors'); //to solve an err
+const cors = require('cors'); //Cross-origin resource sharing. From Frontend to backend or maybe from inter-server resourse sharing.
 const app = express(); 
 const mongoose = require('mongoose'); //for mongoDB
 const User = require('./models/User');
